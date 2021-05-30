@@ -133,12 +133,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn9"
+        android:id="@+id/btn8"
         android:layout_width="115dp"
         android:layout_height="132dp"
-        android:layout_marginStart="280dp"
+        android:layout_marginStart="148dp"
         android:layout_marginTop="327dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="148dp"
         android:layout_marginBottom="272dp"
         android:backgroundTint="@android:color/darker_gray"
         android:onClick="onClick"
@@ -151,12 +151,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn8"
+        android:id="@+id/btn9"
         android:layout_width="115dp"
         android:layout_height="132dp"
-        android:layout_marginStart="148dp"
+        android:layout_marginStart="280dp"
         android:layout_marginTop="327dp"
-        android:layout_marginEnd="148dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="272dp"
         android:backgroundTint="@android:color/darker_gray"
         android:onClick="onClick"
@@ -194,7 +194,7 @@
         android:layout_marginBottom="57dp"
         android:backgroundTint="@android:color/darker_gray"
         android:text=" New Game"
-        android:onClick="newGameOnClick"
+        android:onClick="resetGameOnClick"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
